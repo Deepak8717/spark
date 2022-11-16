@@ -4,8 +4,8 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 import { IoIosContact } from "react-icons/io";
-import { FaLinkedin, FaLinkedinIn, FaQuestionCircle } from "react-icons/fa";
-import { BsFacebook, BsLinkedin } from "react-icons/bs";
+import { FaLinkedin, FaQuestionCircle } from "react-icons/fa";
+import { BsFacebook } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
