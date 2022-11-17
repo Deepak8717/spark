@@ -1,11 +1,15 @@
 import corporateCard from "../../assets/corporate-card.avif";
 const CorporateCards = () => {
   return (
-    <div className="w-[70%] mx-auto p-8 text-center ">
-      <h1 className="m-4 text-6xl font-bold capitalize">Corporate cards</h1>
-      <h2 className="m-4 text-4xl capitalize">Virtual & Physical cards</h2>
-      <div className="flex m-4">
-        <div className="w-[600px] m-4 p-8 text-left rounded-xl shadow-xl border capitalize">
+    <div className="sm:w-full md:w-[70%] mx-auto p-8 text-center ">
+      <h1 className="m-2 md:m-4 text-4xl md:text-5xl lg:text-6xl  font-bold capitalize">
+        Corporate cards
+      </h1>
+      <h2 className="m-2 md:m-4 text-2xl md:text-3xl lg:text-4xl capitalize">
+        Virtual & Physical cards
+      </h2>
+      <div className="flex flex-col sm:flex-row ">
+        <div className="w-full  lg:w-[600px] m-2  lg:m-4 p-8 text-left rounded-xl shadow-xl border capitalize">
           <h3 className="text-3xl font-semibold">Credit cards</h3>
           <p className="py-4 text-lg">
             Get limit-based cards with no collateral. Duration of interest-free
@@ -13,7 +17,7 @@ const CorporateCards = () => {
             cards reset at the end of the calendar month.
           </p>
         </div>
-        <div className="w-[600px]  m-4 p-8 text-left rounded-xl shadow-xl border capitalize">
+        <div className="w-full lg:w-[600px] m-2  lg:m-4 p-8 text-left rounded-xl shadow-xl border capitalize">
           <h3 className="text-3xl font-semibold">Prepaid cards​</h3>
           <p className="py-4 text-lg">
             We provide access to both top up & limit-based cards. Balance
@@ -25,7 +29,7 @@ const CorporateCards = () => {
       <img
         src={corporateCard}
         alt="corporate-card"
-        className="rounded-2xl w-[98%] h-[700px] mx-auto"
+        className="rounded-2xl  h-auto mx-auto"
       />
     </div>
   );

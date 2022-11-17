@@ -7,7 +7,7 @@ const KeyAreas = () => {
   const [activeKeyArea, setActiveKeyArea] = useState("corporateCard");
 
   return (
-    <div className="pt-[150px]">
+    <div className="pt-[80px] sm:pt-[100px] md:pt-[150px]">
       <div className="mx-auto w-fit">
         <button
           className={`btn-key-areas ${

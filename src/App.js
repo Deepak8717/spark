@@ -17,8 +17,8 @@ function App() {
       <Hero handleToggle={handleToggle} />
       {toggleSideModal !== false && <SideModal handleToggle={handleToggle} />}
 
-      {/* <KeyAreas />
-      <KeyBenefits />
+      <KeyAreas />
+      {/*<KeyBenefits />
       <SignUpBanner />
       <Footer /> */}
     </div>
