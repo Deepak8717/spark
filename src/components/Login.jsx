@@ -32,7 +32,7 @@ const Login = () => {
       <Form className="mx-auto  text-center" onSubmit={handleSubmit}>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Control
-            className="w-[400px] p-4 border-2  rounded-xl outline-0"
+            className="w-[350px] p-4 border-2  rounded-xl outline-0"
             type="email"
             placeholder="Email address"
             onChange={(e) => setEmail(e.target.value)}
@@ -41,7 +41,7 @@ const Login = () => {
 
         <Form.Group className="mb-3" controlId="formBasicPassword">
           <Form.Control
-            className="w-[400px] p-4 border-2  rounded-xl outline-0"
+            className="w-[350px] p-4 border-2  rounded-xl outline-0"
             type="password"
             placeholder="Password"
             onChange={(e) => setPassword(e.target.value)}
@@ -52,7 +52,7 @@ const Login = () => {
           <Button
             variant="primary"
             type="Submit"
-            className="w-[400px] p-4 border-2  rounded-xl outline-0 bg-blue-800 text-white text-2xl"
+            className="w-[350px] p-4 border-2  rounded-xl outline-0 bg-blue-800 text-white text-2xl"
           >
             Log In
           </Button>

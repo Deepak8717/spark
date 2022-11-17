@@ -5,11 +5,11 @@ import { AiFillCalculator, AiOutlineUsergroupAdd } from "react-icons/ai";
 import { BiHistory, BiSelectMultiple, BiTrendingUp } from "react-icons/bi";
 const KeyBenefits = () => {
   return (
-    <div className="p-4 m-16">
+    <div className="p-4">
       <h1 className="p-4 text-center text-5xl font-bold ">Key benefits</h1>
-      <div className="grid grid-cols-3 gap-4 w-[80%] mx-auto  justify-items-center">
-        <div className="w-[400px] h-[300px] p-4 shadow-md text-4xl rounded-xl ">
-          <RiAdminFill className="w-28 h-24 text-[#1cb5e0]" />
+      <div className="mx-auto grid w-[100%] grid-cols-1 justify-items-center gap-4 md:grid-cols-2  lg:grid-cols-3">
+        <div className="h-[300px] max-w-[350px] rounded-xl p-4 text-4xl shadow-md ">
+          <RiAdminFill className="h-24 w-28 text-[#1cb5e0]" />
           <div className="p-4">
             <h1 className="text-xl font-semibold capitalize">
               User, accountant, admin
@@ -19,8 +19,8 @@ const KeyBenefits = () => {
             </p>
           </div>
         </div>
-        <div className="w-[400px] h-[300px] p-4 shadow-md text-4xl  rounded-xl">
-          <MdLogin className="w-28 h-24 text-[#1cb5e0]" />
+        <div className="h-[300px] max-w-[350px] rounded-xl p-4 text-4xl  shadow-md">
+          <MdLogin className="h-24 w-28 text-[#1cb5e0]" />
           <div className="p-4">
             <h1 className="text-xl font-semibold capitalize">
               Single login for multiple company accounts
@@ -31,8 +31,8 @@ const KeyBenefits = () => {
             </p>
           </div>
         </div>
-        <div className="w-[400px] h-[300px] p-4 shadow-md text-4xl  rounded-xl">
-          <IoLogoPwa className="w-28 h-24 text-[#1cb5e0]" />
+        <div className="h-[300px] max-w-[350px] rounded-xl p-4 text-4xl  shadow-md">
+          <IoLogoPwa className="h-24 w-28 text-[#1cb5e0]" />
           <div className="p-4">
             <h1 className="text-xl font-semibold capitalize">
               Progressive web app
@@ -42,8 +42,8 @@ const KeyBenefits = () => {
             </p>
           </div>
         </div>
-        <div className="w-[400px] h-[300px] p-4 shadow-md text-4xl  rounded-xl">
-          <MdTextsms className="w-28 h-24 text-[#1cb5e0]" />
+        <div className="h-[300px] max-w-[350px] rounded-xl p-4 text-4xl  shadow-md">
+          <MdTextsms className="h-24 w-28 text-[#1cb5e0]" />
           <div className="p-4">
             <h1 className="text-xl font-semibold capitalize">
               OTP via email & SMS
@@ -53,8 +53,8 @@ const KeyBenefits = () => {
             </p>
           </div>
         </div>
-        <div className="w-[400px] h-[300px] p-4 shadow-md text-4xl  rounded-xl">
-          <AiFillCalculator className="w-28 h-24 text-[#1cb5e0]" />
+        <div className="h-[300px] max-w-[350px] rounded-xl p-4 text-4xl  shadow-md">
+          <AiFillCalculator className="h-24 w-28 text-[#1cb5e0]" />
           <div className="p-4">
             <h1 className="text-xl font-semibold capitalize">Convert to EMI</h1>
             <p className="text-lg capitalize text-gray-500">
@@ -62,8 +62,8 @@ const KeyBenefits = () => {
             </p>
           </div>
         </div>
-        <div className="w-[400px] h-[300px] p-4 shadow-md text-4xl  rounded-xl">
-          <BiSelectMultiple className="w-28 h-24 text-[#1cb5e0]" />
+        <div className="h-[300px] max-w-[350px] rounded-xl p-4 text-4xl  shadow-md">
+          <BiSelectMultiple className="h-24 w-28 text-[#1cb5e0]" />
           <div className="p-4">
             <h1 className="text-xl font-semibold capitalize">
               Multiple products, single access
@@ -74,8 +74,8 @@ const KeyBenefits = () => {
             </p>
           </div>
         </div>
-        <div className="w-[400px] h-[300px] p-4 shadow-md text-4xl  rounded-xl">
-          <AiOutlineUsergroupAdd className="w-28 h-24 text-[#1cb5e0]" />
+        <div className="h-[300px] max-w-[350px] rounded-xl p-4 text-4xl  shadow-md">
+          <AiOutlineUsergroupAdd className="h-24 w-28 text-[#1cb5e0]" />
           <div className="p-4">
             <h1 className="text-xl font-semibold capitalize">
               Automated user management
@@ -86,8 +86,8 @@ const KeyBenefits = () => {
             </p>
           </div>
         </div>
-        <div className="w-[400px] h-[300px] p-4 shadow-md text-4xl  rounded-xl">
-          <BiTrendingUp className="w-28 h-24 text-[#1cb5e0]" />
+        <div className="h-[300px] max-w-[350px] rounded-xl p-4 text-4xl  shadow-md">
+          <BiTrendingUp className="h-24 w-28 text-[#1cb5e0]" />
           <div className="p-4">
             <h1 className="text-xl font-semibold capitalize">
               Automated trend analysis
@@ -98,8 +98,8 @@ const KeyBenefits = () => {
             </p>
           </div>
         </div>
-        <div className="w-[400px] h-[300px] p-4 shadow-md text-4xl  rounded-xl">
-          <BiHistory className="w-28 h-24 text-[#1cb5e0]" />
+        <div className="h-[300px] max-w-[350px] rounded-xl p-4 text-4xl  shadow-md">
+          <BiHistory className="h-24 w-28 text-[#1cb5e0]" />
           <div className="p-4">
             <h1 className="text-xl font-semibold capitalize">
               Time capsule of all spends & receipts

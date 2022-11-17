@@ -10,9 +10,9 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="m-8 flex flex-col justify-center items-center">
-      <div className="flex  capitalize my-8">
-        <div className="w-96 p-2">
+    <div className="m-8 flex flex-col lg:items-center items-start">
+      <div className="flex flex-col lg:flex-row capitalize my-8">
+        <div className="p-2">
           <Link to="/">
             <h1 className="my-4 text-2xl font-bold">Spark</h1>
           </Link>
@@ -67,9 +67,9 @@ const Footer = () => {
           </Link>
         </div>
       </div>
-      <div className="h-32 w-[70%] p-4 flex justify-between items-center border-t-2 border-black ">
+      <div className="h-32 w-full lg:w-[70%] py-2 lg:p-4 flex flex-col lg:flex-row jusitfy-center lg:justify-between items-center border-t-2 border-black ">
         <div>Copyright © 2022. All rights reserved</div>
-        <div className="flex">
+        <div className="flex ">
           <Link to="">
             <AiFillTwitterCircle className="w-12 h-12 m-2 " />
           </Link>

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const SideModal = ({ handleToggle }) => {
   return (
     <div className="side-modal">
-      <div className="absolute top-0 bottom-0 right-0 w-[200px] p-4 bg-white">
+      <div className="absolute top-0 bottom-0 right-0 w-[200px] p-4 bg-white z-10">
         <button className="relative left-[90%] text-2xl" onClick={handleToggle}>
           X
         </button>

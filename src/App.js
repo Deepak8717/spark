@@ -1,4 +1,3 @@
-import { Navbar } from "react-bootstrap";
 import "./App.css";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
@@ -16,11 +15,10 @@ function App() {
     <div className="App">
       <Hero handleToggle={handleToggle} />
       {toggleSideModal !== false && <SideModal handleToggle={handleToggle} />}
-
       <KeyAreas />
-      {/*<KeyBenefits />
+      <KeyBenefits />
       <SignUpBanner />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }

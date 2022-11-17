@@ -83,16 +83,15 @@
 }
 
 .signUp-and-login-container {
-  width: 500px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 30px;
   border-radius: 20px;
+  padding: 10px 25px;
 }
 .dashboard-container {
-  width: 90%;
+  width: 100%;
   max-width: 1200px;
 }
 
