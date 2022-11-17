@@ -2,7 +2,7 @@ import Navbar from "./Navbar";
 import { ReactComponent as CorporateCard } from "../assets/corporate-card.svg";
 import { useEffect, useState } from "react";
 import FixedHeader from "./FixedHeader";
-const Hero = () => {
+const Hero = ({ handleToggle }) => {
   const [fixedHeader, setFixedHeader] = useState(false);
 
   const showFixedHeader = () => {
@@ -22,18 +22,20 @@ const Hero = () => {
   return (
     <div className="hero relative">
       <FixedHeader fixedHeader={fixedHeader} />
-      <Navbar props={null} />
-      <div>
-        <div className="absolute top-[40%] left-[50px] lg:left-[100px] xl:left-[150px] 2xl:left-[280px]   mx-auto  text-white ">
-          <h1 className="text-5xl font-bold uppercase">corporate expense </h1>
-          <h2 className="text-4xl capitalize">
+      <Navbar props={null} handleToggle={handleToggle} />
+      <div className="hidden">
+        <div className="absolute top-[40%] left-[20%] lg:left-[10%] xl:left-[12%] 2xl:left-[15%]   mx-auto  text-white ">
+          <h1 className="text-4xl  xl:text-5xl font-bold uppercase">
+            corporate expense
+          </h1>
+          <h2 className="text-3xl xl:text-4xl capitalize">
             management at your fingertips.
           </h2>
-          <p className="my-4 text-xl w-[500px]">
+          <p className="my-4 text-lg 2xl:text-xl w-[500px]">
             Managing corporate expenses simplified down only to what you need.
           </p>
         </div>
-        <CorporateCard className="absolute top-[30%] right-[2%] " />
+        <CorporateCard className="hidden absolute top-[70%] 2xl:top-[30%] right-[10%] lg:right-[2%] w-[80%] lg:w-[50%]" />
       </div>
     </div>
   );

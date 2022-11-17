@@ -46,6 +46,15 @@
   transition: all 0.3s ease 0s;
   z-index: 100;
 }
+/* sidemodal */
+.side-modal {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 /* tabs */
 .btn-key-areas {
   font-size: 20px;

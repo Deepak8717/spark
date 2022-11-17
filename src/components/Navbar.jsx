@@ -1,15 +1,17 @@
 import { Link } from "react-router-dom";
-
-const Navbar = ({ props }) => {
+import { GiHamburgerMenu } from "react-icons/gi";
+const Navbar = ({ props, handleToggle }) => {
   return (
     <div
-      className={`nav flex justify-around h-24  ${props !== null && "nav-bg"}`}
+      className={`nav flex justify-between p-8 lg:p-0 lg:justify-around h-24  ${
+        props !== null && "nav-bg"
+      }`}
     >
       <div className="flex items-center">
         <Link to="/">
           <h1 className="text-4xl w-32 ">Spark</h1>
         </Link>
-        <ul className="p-2">
+        <ul className="p-2 hidden lg:block">
           <li className="inline-block py-2 mx-2 font-bold nav-item active">
             Products
           </li>
@@ -20,7 +22,7 @@ const Navbar = ({ props }) => {
           </li>
         </ul>
       </div>
-      <div className="flex items-center">
+      <div className="items-center hidden lg:flex">
         {props === null ? (
           <div>
             <Link to="/login" className="mx-4 font-bold">
@@ -34,6 +36,9 @@ const Navbar = ({ props }) => {
           <div>{props}</div>
         )}
       </div>
+      <button onClick={handleToggle} className="lg:hidden">
+        <GiHamburgerMenu className="text-3xl " />
+      </button>
     </div>
   );
 };
